@@ -43,4 +43,4 @@ https://qiita.com/yanyansk/items/3a989b70d2d3d49eff16
 ルートアカウントでログインして以下のURLにログインしてください。
 https://console.aws.amazon.com/iam/home#/security_credentials
 
-![AWSアクセスキーの画像](https://gyazo.com/af3ba2415d4174bc405ce9c1c85efd35)
+https://gyazo.com/af3ba2415d4174bc405ce9c1c85efd35

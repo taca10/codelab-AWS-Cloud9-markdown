@@ -1,0 +1,25 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2021-05-29T08:10:30+09:00",
+  "id": "codelab-AWS-Cloud9-markdown",
+  "duration": 32,
+  "title": "AWS Cloud9でRubyの開発環境を作ろう",
+  "summary": "【無料】AWS Cloud9でRubyの開発環境を作ろう",
+  "source": "aws_codelab.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "codelab",
+    "awscloud9"
+  ],
+  "tags": [
+    "aws"
+  ],
+  "feedback": "https://github.com/ree-rishun/codelab-zenn",
+  "url": "codelab-AWS-Cloud9-markdown"
+}
