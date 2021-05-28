@@ -38,7 +38,7 @@ Duration: 0:10:00
 以下のサイトを参考にハンズオンでやっていきます。
 https://qiita.com/yanyansk/items/3a989b70d2d3d49eff16
 
-## ルートアクセスキーの削除
+### ルートアクセスキーの削除
 ルートアカウントでログインして以下のURLにログインしてください。
 https://console.aws.amazon.com/iam/home#/security_credentials
 
