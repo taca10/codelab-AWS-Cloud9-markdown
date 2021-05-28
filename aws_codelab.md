@@ -32,9 +32,8 @@ Duration: 0:1000
 
 https://aws.amazon.com/jp/register-flow/
 
-
 ## セキュリティ周りの設定
-Duration: 0:15:00
+Duration: 0:10:00
 
 以下のサイトを参考にハンズオンでやっていきます。
 https://qiita.com/yanyansk/items/3a989b70d2d3d49eff16
