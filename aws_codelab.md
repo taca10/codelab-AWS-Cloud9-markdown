@@ -33,7 +33,7 @@ Duration: 0:1000
 https://aws.amazon.com/jp/register-flow/
 
 
-# セキュリティ周りの設定
+## セキュリティ周りの設定
 Duration: 0:15:00
 
 以下のサイトを参考にハンズオンでやっていきます。
