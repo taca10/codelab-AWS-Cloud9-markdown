@@ -95,6 +95,7 @@ Configure settingsは以下の画像をみながら設定をお願いします�
 [設定方法](https://gyazo.com/a6abcba534ebe0df9e124bb5bf6e0334)
 
 
+
 ## Rubyの問題に挑戦しよう！
 
 ### FizzBuzz問題
