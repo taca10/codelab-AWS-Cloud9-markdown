@@ -31,13 +31,13 @@ Duration: 0:1000
 3. お支払い情報を入力
 4. SMS または日本語自動音声電話によるアカウント認証
 
-https://aws.amazon.com/jp/register-flow/
+[AWSアカウント作成方法](https://aws.amazon.com/jp/register-flow/)
 
 ## セキュリティ周りの設定
 Duration: 0:10:00
 
-以下のサイトを参考にハンズオンでやっていきます。
-https://qiita.com/yanyansk/items/3a989b70d2d3d49eff16
+以下のサイトを参考にハンズオンでやっていきます。<br>
+[こちら](https://qiita.com/yanyansk/items/3a989b70d2d3d49eff16)
 
 ### ルートアクセスキーの削除
 
@@ -45,3 +45,33 @@ https://qiita.com/yanyansk/items/3a989b70d2d3d49eff16
 https://console.aws.amazon.com/iam/home#/security_credentials
 
 https://gyazo.com/af3ba2415d4174bc405ce9c1c85efd35
+
+
+### ルートアカウントのMFA有効化
+
+#### MFAとは
+
+MFA（Multi-Factor Authentication、多要素認証、以下、MFA）とは、2つ以上の要素で行う認証をいいます。
+メールアドレスとパスワードの認証に加えて、他の認証要素を使用することでセキュリティレベルが向上します。
+https://www.cloudgate.jp/lineup/uno/multifactor-authentication.html
+
+
+メールアドレスとパスワードが流出した際にもログインできないようにします。
+[設定方法](https://console.aws.amazon.com/iam/home#/security_credentials)
+
+
+### IAMグループの作成
+
+IAMユーザーを作成する前に、IAMグループを作成します。<br>
+IAMグループを作成することで、権限管理がしやすくなります。
+
+[設定方法](https://console.aws.amazon.com/iam/home#/groups)
+
+### IAMユーザーの作成
+
+
+ルートアカウント以外にログインできるアカウント（IAMユーザー）を作成します。
+
+[設定方法](https://console.aws.amazon.com/iam/home#/users)
+
+ルートアカウントのMFA有効化の時と同じくIAMユーザーでもMFAを設定します。
