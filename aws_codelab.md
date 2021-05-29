@@ -1,4 +1,4 @@
-author: taca
+author: taca10
 summary: 【無料】AWS Cloud9でRubyの開発環境を作ろう
 id: codelab-AWS-Cloud9-markdown
 categories: codelab,AWSCloud9
