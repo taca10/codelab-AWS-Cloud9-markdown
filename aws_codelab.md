@@ -95,9 +95,9 @@ Configure settingsは以下の画像をみながら設定をお願いします�
 [設定方法](https://gyazo.com/a6abcba534ebe0df9e124bb5bf6e0334)
 
 
-### Rubyの問題に挑戦しよう！
+## Rubyの問題に挑戦しよう！
 
-#### FizzBuzz問題
+### FizzBuzz問題
 
 「FizzBuzz問題」とは、3の倍数のときは「"fizz"」、5の倍数のときは「"buzz"」、共通の倍数のときは「"fizzbuzz"」、その他は「数値」を戻すという単純な処理です。ループ処理と分岐処理を理解していればコードを書けます。
 (1から20までの数字で結構です。)
