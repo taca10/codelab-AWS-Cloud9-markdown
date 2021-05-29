@@ -34,7 +34,6 @@ Duration: 0:1000
 [AWSアカウント作成方法](https://aws.amazon.com/jp/register-flow/)
 
 ## セキュリティ周りの設定
-Duration: 0:10:00
 
 以下のサイトを参考にハンズオンでやっていきます。<br>
 [こちら](https://qiita.com/yanyansk/items/3a989b70d2d3d49eff16)
@@ -55,6 +54,10 @@ MFA（Multi-Factor Authentication、多要素認証、以下、MFA）とは、2�
 メールアドレスとパスワードの認証に加えて、他の認証要素を使用することでセキュリティレベルが向上します。
 https://www.cloudgate.jp/lineup/uno/multifactor-authentication.html
 
+今回はAuthyアプリをダウンロードしてください。
+https://www.teluru.jp/posts/611
+
+上記の記事にも書いてある通り、認証データが引き継げるためとても便利です。
 
 メールアドレスとパスワードが流出した際にもログインできないようにします。
 [設定方法](https://console.aws.amazon.com/iam/home#/security_credentials)
@@ -75,3 +78,18 @@ IAMグループを作成することで、権限管理がしやすくなりま�
 [設定方法](https://console.aws.amazon.com/iam/home#/users)
 
 ルートアカウントのMFA有効化の時と同じくIAMユーザーでもMFAを設定します。
+
+## Cloud9環境作成
+
+### Name environment
+
+サービスからCloud9を検索します。<br>
+「create　environment」ボタンを押します。<br>
+Environment name and descriptionに名前を入力します。Nameはcloud9-rubyで、<br>
+descriptionは空白で問題ありません。<br>
+
+
+### Configure settings
+
+Configure settingsは以下の画像をみながら設定をお願いします。
+https://gyazo.com/a6abcba534ebe0df9e124bb5bf6e0334

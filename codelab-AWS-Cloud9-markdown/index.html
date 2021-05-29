@@ -45,7 +45,7 @@
 
       </google-codelab-step>
     
-      <google-codelab-step label="セキュリティ周りの設定" duration="10">
+      <google-codelab-step label="セキュリティ周りの設定" duration="0">
         <p>以下のサイトを参考にハンズオンでやっていきます。<br><a href="https://qiita.com/yanyansk/items/3a989b70d2d3d49eff16" target="_blank">こちら</a></p>
 <h2 is-upgraded>ルートアクセスキーの削除</h2>
 <p>ルートアカウントでログインして以下のURLにログインしてください。 https://console.aws.amazon.com/iam/home#/security_credentials</p>
@@ -53,6 +53,8 @@
 <h2 is-upgraded>ルートアカウントのMFA有効化</h2>
 <h3 is-upgraded>MFAとは</h3>
 <p>MFA（Multi-Factor Authentication、多要素認証、以下、MFA）とは、2つ以上の要素で行う認証をいいます。 メールアドレスとパスワードの認証に加えて、他の認証要素を使用することでセキュリティレベルが向上します。 https://www.cloudgate.jp/lineup/uno/multifactor-authentication.html</p>
+<p>今回はAuthyアプリをダウンロードしてください。 https://www.teluru.jp/posts/611</p>
+<p>上記の記事にも書いてある通り、認証データが引き継げるためとても便利です。</p>
 <p>メールアドレスとパスワードが流出した際にもログインできないようにします。 <a href="https://console.aws.amazon.com/iam/home#/security_credentials" target="_blank">設定方法</a></p>
 <h2 is-upgraded>IAMグループの作成</h2>
 <p>IAMユーザーを作成する前に、IAMグループを作成します。<br> IAMグループを作成することで、権限管理がしやすくなります。</p>
@@ -61,6 +63,15 @@
 <p>ルートアカウント以外にログインできるアカウント（IAMユーザー）を作成します。</p>
 <p><a href="https://console.aws.amazon.com/iam/home#/users" target="_blank">設定方法</a></p>
 <p>ルートアカウントのMFA有効化の時と同じくIAMユーザーでもMFAを設定します。</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Cloud9環境作成" duration="0">
+        <h2 is-upgraded>Name environment</h2>
+<p>サービスからCloud9を検索します。<br> 「create　environment」ボタンを押します。<br> Environment name and descriptionに名前を入力します。Nameはcloud9-rubyで、<br> descriptionは空白で問題ありません。<br></p>
+<h2 is-upgraded>Configure settings</h2>
+<p>Configure settingsは以下の画像をみながら設定をお願いします。 https://gyazo.com/a6abcba534ebe0df9e124bb5bf6e0334</p>
 
 
       </google-codelab-step>
