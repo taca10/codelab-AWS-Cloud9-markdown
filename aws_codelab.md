@@ -55,7 +55,7 @@ MFA（Multi-Factor Authentication、多要素認証、以下、MFA）とは、2�
 https://www.cloudgate.jp/lineup/uno/multifactor-authentication.html
 
 今回はAuthyアプリをダウンロードしてください。
-https://www.teluru.jp/posts/611
+[Authyアプリ](https://www.teluru.jp/posts/611)
 
 上記の記事にも書いてある通り、認証データが引き継げるためとても便利です。
 
@@ -92,4 +92,14 @@ descriptionは空白で問題ありません。<br>
 ### Configure settings
 
 Configure settingsは以下の画像をみながら設定をお願いします。
-https://gyazo.com/a6abcba534ebe0df9e124bb5bf6e0334
+[設定方法](https://gyazo.com/a6abcba534ebe0df9e124bb5bf6e0334)
+
+
+### Rubyの問題に挑戦しよう！
+
+#### FizzBuzz問題
+
+「FizzBuzz問題」とは、3の倍数のときは「"fizz"」、5の倍数のときは「"buzz"」、共通の倍数のときは「"fizzbuzz"」、その他は「数値」を戻すという単純な処理です。ループ処理と分岐処理を理解していればコードを書けます。
+(1から20までの数字で結構です。)
+
+[実行結果](https://gyazo.com/fb8eaf017d93dd8234a5b7be36e795c7)
